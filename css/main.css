@@ -1,0 +1,125 @@
+/* line 4, ../../../Documents/web/Sass 15.12.2021/sass/main.sass */
+.subtitle {
+  margin-top: 19px;
+  color: #222222;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 12, ../../../Documents/web/Sass 15.12.2021/sass/main.sass */
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 79px 0;
+  background-color: rgba(243, 247, 225, 0.8);
+}
+
+/* line 16, ../../../Documents/web/Sass 15.12.2021/sass/main.sass */
+.mobile .row {
+  margin-top: 32px;
+}
+
+/* line 18, ../../../Documents/web/Sass 15.12.2021/sass/main.sass */
+.mobile_item {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0px auto;
+  margin-bottom: 19px;
+  padding: 92px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 29, ../../../Documents/web/Sass 15.12.2021/sass/main.sass */
+.mobile_item_1 {
+  background: url("https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center center/cover no-repeat;
+}
+
+/* line 31, ../../../Documents/web/Sass 15.12.2021/sass/main.sass */
+.mobile_item_2 {
+  background: url("https://images.pexels.com/photos/909907/pexels-photo-909907.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center center/cover no-repeat;
+}
+
+/* line 33, ../../../Documents/web/Sass 15.12.2021/sass/main.sass */
+.mobile_item_3 {
+  background: url("https://images.pexels.com/photos/1035108/pexels-photo-1035108.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center center/cover no-repeat;
+}
+
+/* line 35, ../../../Documents/web/Sass 15.12.2021/sass/main.sass */
+.mobile_item_4 {
+  background: url("https://images.pexels.com/photos/10535723/pexels-photo-10535723.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center center/cover no-repeat;
+}
+
+/* line 37, ../../../Documents/web/Sass 15.12.2021/sass/main.sass */
+.mobile_item_5 {
+  background: url("https://images.pexels.com/photos/9452202/pexels-photo-9452202.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center center/cover no-repeat;
+}
+
+/* line 39, ../../../Documents/web/Sass 15.12.2021/sass/main.sass */
+.mobile_item_6 {
+  background: url("https://images.pexels.com/photos/5975533/pexels-photo-5975533.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center center/cover no-repeat;
+}
+
+/* line 41, ../../../Documents/web/Sass 15.12.2021/sass/main.sass */
+.mobile_item_subtitle {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+/* line 48, ../../../Documents/web/Sass 15.12.2021/sass/main.sass */
+.mobile_item_plus {
+  position: absolute;
+  cursor: pointer;
+  bottom: 35px;
+  background: #ffffff;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+
+/* line 56, ../../../Documents/web/Sass 15.12.2021/sass/main.sass */
+.mobile_item_plus:before {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  content: '';
+  display: flex;
+  width: 14px;
+  height: 2px;
+  background-color: #1eacc7;
+  transition: 0.5s all;
+}
+
+/* line 66, ../../../Documents/web/Sass 15.12.2021/sass/main.sass */
+.mobile_item_plus:after {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  content: '';
+  display: block;
+  transform: rotate(90deg);
+  width: 14px;
+  height: 2px;
+  background-color: #1eacc7;
+  transition: 0.5s all;
+}
+
+/* line 78, ../../../Documents/web/Sass 15.12.2021/sass/main.sass */
+.mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
+  background-color: #ff5656;
+}
+
+/* line 81, ../../../Documents/web/Sass 15.12.2021/sass/main.sass */
+section .salomDunyo {
+  color: red;
+}
+
+/*# sourceMappingURL=main.css.map */
